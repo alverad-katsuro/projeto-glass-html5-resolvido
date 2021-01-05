@@ -1,0 +1,2 @@
+quando queremos quebrar a palavra em relação ao navegador e ela ja tem - usamos <wbr>
+quando queremos que tenha hifen usamos $shy ex casa - com quebra ca-sa %shy e no meio da palavra
