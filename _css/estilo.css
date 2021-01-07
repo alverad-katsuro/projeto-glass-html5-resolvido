@@ -7,6 +7,8 @@
     text-align: justify;
 }
 
+/* CLASS */
+
 p{
     text-indent: 30px;
 }
@@ -49,18 +51,26 @@ video{
     height: 100%;
 }
 
+header{
+    background-color:;
+    border-bottom: solid;
+}
+
+footer{
+    clear: both;
+    background-color: red;
+}
+
+/* ID */
 
 #menu{
+    
+
 
 }
 
 #oculos01{
     margin: 80px 15% 0px 85%;
-}
-
-header{
-    background-color:;
-    border-bottom: solid;
 }
 
 #esquerda{
@@ -79,9 +89,4 @@ header{
     float: right;
     border-left: solid;
     padding-right: 20px;
-}
-
-footer{
-    clear: both;
-    background-color: red;
 }
