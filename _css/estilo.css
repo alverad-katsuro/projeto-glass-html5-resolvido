@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    max-width: 1800px;
-}
-
 /* CLASS */
 
 body{
@@ -23,37 +17,19 @@ div#interface {
     background-color: white;
 }
 
-/* Menu */
-nav#menu ul {
-    list-style: none;
-    position: absolute;
-    top: 30px;
-    left: 39%;
-
-}
-#menu li {
-    display: inline-block;
-    margin: 2px;
-    padding: 20px;;
-    transition: 0.5s;
-    background-color: #dddddd;
-    text-transform: uppercase;
+header{
+    border-bottom: solid;
+    padding: 10px;
+    max-height: 220px;
 }
 
-#menu li:hover{
-    background-color: #606060;
-    color: rgb(0, 0, 251);
+
+
+#oculos01{
+    position: relative;
+    margin: -20px 0% 0px 92%;
 }
 
-#menu a{
-    text-decoration: none;
-    color: black;
-}
-
-#menu a:hover{
-    color: White;
-    text-decoration: underline;
-}
 
 
 
@@ -93,23 +69,32 @@ video{
     height: 100%;
 }
 
-nav#menu h1{
-    display: none;
-}
-
-header{
-    border-bottom: solid;
-    padding: 10px;
-    max-height: 220px;
-}
-
 #guia h3{
     margin: 0px 20px;
     padding: 0px;
 }
 
-#guia{
-    
+/* Layout */
+
+#esquerda{
+    min-height: auto;
+    max-width: 50%;
+    border-right: solid;
+    padding: 0px 15px;
+    margin: 0px;
+    float: left;
+    width: 900px;
+    background-color: whitesmoke;
+}
+
+#direita{
+    display: flex;
+    max-width: 50%;
+    padding: 0px 15px;
+    margin: 0px;
+    float: right;
+    width: 825px;
+    background-color: whitesmoke;
 }
 
 footer {
@@ -122,31 +107,4 @@ footer {
 
 footer p{
     text-align: center;
-}
-
-/* ID */
-#Glass{
-    position: relative;
-    padding: 0px;
-    margin: 0 30px 0 30px;
-}
-
-#oculos01{
-    position: relative;
-    margin: -20px 0% 0px 92%;
-}
-
-#esquerda{
-    min-height: auto;
-    max-width: 50%;
-    border-right: solid;
-    padding: 0px;
-    margin: 0px;
-}
-
-#direita{
-    display: flex;
-    max-width: 50%;
-    padding: 0%;
-    margin: 0%;
 }
