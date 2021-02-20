@@ -48,3 +48,16 @@ nav#menu ul {
     padding: 0px;
     margin: 0 20px 0 0px;
 }
+
+footer {
+    clear: both;
+    background-color: red;
+    height: 50px;
+    border-top: solid;
+    padding: 20px;
+    max-width: 1800px;
+}
+
+footer p{
+    text-align: center;
+}

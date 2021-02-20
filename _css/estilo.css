@@ -20,6 +20,7 @@ div#interface {
 header{
     border-bottom: solid;
     padding: 10px;
+    max-width: 1800px;
     max-height: 220px;
 }
 
@@ -97,14 +98,3 @@ video{
     background-color: whitesmoke;
 }
 
-footer {
-    clear: both;
-    background-color: red;
-    height: 50px;
-    border-top: solid;
-    padding: 20px;
-}
-
-footer p{
-    text-align: center;
-}
