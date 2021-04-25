@@ -1,49 +1,104 @@
 @charset "UTF-8";
 
-/* CLASS */
+/* IMG HEADER */
 
-body{
-    padding: 10px auto 10px auto;
-    background-color: #19d0fd;
-    margin: 30px;
+img#oculos01{
+    position: relative;
+    margin: 0px 0% 0px 92%;
+    padding: 0px;
+    top: 0px;
+}
+
+video{
+    display: block;
+    align-content: center;
+    margin: 0 auto;
+    width: 95%;
+    height: 95%;
+}
+
+#guia h3{
+    margin: 0px 20px;
     padding: 0px;
 }
 
-p{
-    text-indent: 30px;
+/* Article */
+
+div#esquerda{
+    display: block;
+    height: 1930px;
+    min-height: auto;
+    max-width: 50%;
+    border-right: 2px solid #606060;
+    padding: 0px 30px;
+    margin: auto;
+    float: left;
+    width: 900px
+}
+section#especi_tec caption{
+    text-align: center;
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
 }
 
-div#interface {
-    background-color: white;
+section#especi_tec caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 8px;
 }
 
-header{
-    border-bottom: solid;
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec tr td{
+    border: 1px solid black;
     padding: 10px;
-    max-width: 1800px;
-    max-height: 220px;
+    background-color: #cecece;
+    text-align: center;
+    font-size: 12pt;
 }
 
-
-
-#oculos01{
-    position: relative;
-    margin: -20px 0% 0px 92%;
+table#tabelaspec tr th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: right;
+    background-color: #606060;
+    vertical-align: top;
+    font-size: 14pt;
+    color: white;
+    font-weight: bold;
 }
 
+/* Aside */
 
-
+div#direita{
+    display: block;
+    max-width: 42.8%;
+    padding: 0px 30px;
+    margin: auto;
+    float: right;
+    height: 1930px;
+}
 
 figure.foto-legenda{
     border: white solid 8px;
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 0px 0px 8px black;
     position: relative;
 }
+
 figure.foto-legenda img{
     margin: auto;
     width: 100%;
     height: 100%;
 }
+
 figure.foto-legenda figcaption{
     position: absolute;
     top: 0px;
@@ -58,43 +113,18 @@ figure.foto-legenda figcaption{
     margin: auto;
 }
 
+
 figure.foto-legenda:hover figcaption{
     opacity: 1;
 }
 
-video{
-    align-content: center;
-    margin: 10px;
+figure.foto-legenda figcaption h3{
+    text-align: center;
+    padding: 180px 0 0 0;
+}
+
+figure.foto-legenda figcaption p{
+    padding: auto;
     display: block;
-    width: 100%;
-    height: 100%;
+    text-align: center;
 }
-
-#guia h3{
-    margin: 0px 20px;
-    padding: 0px;
-}
-
-/* Layout */
-
-#esquerda{
-    min-height: auto;
-    max-width: 50%;
-    border-right: solid;
-    padding: 0px 15px;
-    margin: 0px;
-    float: left;
-    width: 900px;
-    background-color: whitesmoke;
-}
-
-#direita{
-    display: flex;
-    max-width: 50%;
-    padding: 0px 15px;
-    margin: 0px;
-    float: right;
-    width: 825px;
-    background-color: whitesmoke;
-}
-

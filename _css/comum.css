@@ -1,28 +1,70 @@
-@charset "UTF-8"
+@charset "UTF-8";
+@font-face {
+    font-family: "Fonte";
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
 
 * {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    max-width: 1800px;
 }
 
-/* Menu */
+html{
+    background-color: #b1a9a9b2;
+}
+
+/* Header */
+
+div#interface {
+    background-color: white;
+    width: 1700px;
+    height: 230px;
+}
+
+header#cabecalho{
+    width: 1610px;
+    margin: 0px 30px;
+    max-height: 233px;
+    padding: 0px 15px;
+    border-bottom: 2px solid #606060;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 10px 160px;
+}
+
+header#cabecalho h1{
+    color: #606060;
+    font-size: 30pt;
+    font-family: 'Fonte';
+    margin: 0px;
+    padding-top: 50px;
+}
+
+header#cabecalho h2{
+    font-size: 15pt;
+    color: #888888;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+nav#menu {
+    height: 0px;
+}
 
 nav#menu h1{
     display: none;
 }
 
 nav#menu ul {
+    max-width: 700px;
     list-style: none;
     position: relative;
-    top: -300px;
+    top: -270px;
     left: 55%;
 
 }
 #menu li {
     display: inline-block;
     margin: 2px;
-    padding: 20px;;
+    padding: 20px;
     transition: 0.5s;
     background-color: #dddddd;
     text-transform: uppercase;
@@ -43,21 +85,34 @@ nav#menu ul {
     text-decoration: underline;
 }
 
-#Glass{
-    position: relative;
+/* Body */
+
+body{
+    padding: 10px auto 10px auto;
+    background-color: whitesmoke;
+    margin: 0px 80px;
     padding: 0px;
-    margin: 0 20px 0 0px;
+    width: 1700px;
+    box-shadow: 0px 0px 20px black;
 }
 
+/* Footer */
+
 footer {
+    display: block;
     clear: both;
-    background-color: red;
     height: 50px;
-    border-top: solid;
-    padding: 20px;
-    max-width: 1800px;
+    border-top: 2px solid #606060;
+    margin: 0px 30px;
+    padding: 40px 15px 0px 15px;
+    height: 100px;
+    width: 1610px;
 }
 
 footer p{
     text-align: center;
+}
+
+footer a{
+    text-decoration: none;
 }

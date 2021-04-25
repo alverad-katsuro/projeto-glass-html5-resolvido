@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* IMG HEADER */
+
+img#especificacoes{
+    position: relative;
+    margin: 0px 0% 0px 90%;
+    padding: 0px;
+    top: -60px;
+}
+
+#article{
+    padding: 0px 30px;
+    max-height: 1500px;
+}
